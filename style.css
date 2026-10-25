@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    height: 100vh;
+    background-image: url(../../Downloads/HeroImage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    color: rgb(255, 255, 255);
+}
+
+.banner p {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.banner input {
+    background-color: rgb(251, 251, 255);
+    border: double;
+    padding: 12px;
+    border-radius: 30px;
+    color: rgb(7, 0, 0);
+    width: 300px;
+    padding-right: 50px;
+}
+
+.banner input::placeholder {
+    color: rgb(7, 0, 0)
+}
+
+.hero-search {
+    position: relative;
+}
+
+.searchIcon {
+    background-color: #050000;
+    width: fit-content;
+    padding: 6px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 8px;
+}
+
+.benifit-section div a {
+    color: #000000;
+}
+
+.benifit-section div i {
+    color: rgb(5, 6, 8);
+}
+
+.best-products .btn-group {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 4px;
+}
+
+.best-products .btn-group button {
+    padding: 6px 10px;
+    border-radius: 20px;
+    color: rgb(250, 249, 248);
+    border: none;
+    background-color: rgb(0, 0, 0);
+}
+
+.best-products .btn-group button.active {
+    background-color: rgb(3, 3, 3);
+}
+
+.best-products {
+    background-color: #6b6b6b;
+}
+
+.left-arrow-div,
+.right-arrow-div {
+    background-color: rgb(0, 0, 0);
+    color: #fdfdfd;
+    width: fit-content;
+    font-size: 26px;
+    padding: 16px;
+    border-radius: 50%;
+}
+
+.product-listing-div {
+    position: relative;
+}
+
+.left-arrow-div {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+}
+
+.right-arrow-div {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+}
+
+.products-listing .card {
+    background-color: rgb(248, 248, 250);
+}
+
+.card-body {
+    background-color: rgb(252, 249, 249);
+}
+
+.best-products button {
+    color: #000000;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+}
